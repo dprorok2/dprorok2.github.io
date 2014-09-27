@@ -1,6 +1,7 @@
 /* Owl Carousel Bootstrap Custom CSS */
 
 /* Header Navigation */
+
 #top-nav{
 	border-bottom: 1px solid #e1e6dd;
 	background: #FFF;
@@ -46,9 +47,9 @@
 
 /* Header  */
 
-#pageOne{
-	background: #f1f1f1;
-	padding: 100px 0 100px;
+#pageOne {
+    background: #f1f1f1;
+    padding: 100px 0 100px;
 }
 #pageOne h1{
 	color: #cb0000;
@@ -68,6 +69,21 @@
     width: 80px;
     position: relative;
     left: 100px;
+}
+#pageThree{
+	background: #f1f1f1;
+}
+#pageFive{
+	background: #f1f1f1;
+}
+#pageSeven{
+	background: #f1f1f1;
+}
+#pageNine{
+	background: #f1f1f1;
+}
+#pageEleven{
+	background: #f1f1f1;
 }
 img.arrow-down{
 	margin: 0 auto;
