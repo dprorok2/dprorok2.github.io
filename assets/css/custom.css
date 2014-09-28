@@ -1,5 +1,14 @@
 /* Owl Carousel Bootstrap Custom CSS */
 
+.interestingFact {
+    font-style: italic;
+    line-height: 30px;
+    left: 35px;
+    position: relative;
+    color: #cb4444 !important;
+    top: 160px;
+}
+
 /* Header Navigation */
 
 #top-nav{
@@ -339,7 +348,10 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
         float:none; 
         margin-left:1px; 
         position: relative; 
-        right: 20px;
+        width:100%;
+    }
+    .interestingFact {
+        display:none;
     }
 
 	.navbar.navbar-fixed-top{
@@ -406,7 +418,7 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
         margin-top: 0px;
         position: absolute;
         width: 50px;
-        left: 128px;
+        left: 80px;
 	}
 
 }
