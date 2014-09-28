@@ -337,12 +337,12 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 		border-top: 1px solid #e1e6dd;
 		text-align: center
 	}
-	#pageOne .logo{
+	/*#pageOne .logo{
 		margin-top:40px;
 		margin: 20px auto 0px;
 		float: none;
 		height: 150px;
-	}
+	}*/
 	#pageOne {
 		text-align: center;
 		padding: 60px 0px 30px;
@@ -387,14 +387,15 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 		padding: 20px 0px 20px;
 	}
 	#pageOne .logo{
-		margin-top:0px;
+        margin-top: 0px;
+        position: absolute;
+        width: 50px;
+        left: 128px;
 	}
 
 }
 
-/*
-NO MORE TABLES!! ;)
-*/
+
 @media (max-width: 767px) {
 
 	.hp-table table, .hp-table thead, .hp-table .hp-table tbody, .hp-table th, .hp-table td, .hp-table tr { 
